@@ -60,7 +60,6 @@ export function checkWinner (board) {
 
 export const checkRowDown = (index, board) => {
   if (index > 35) {
-    console.log('cell entra xq es mayor que 35')
     if (!board[index]) return index
     else return
   }
