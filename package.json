@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "othamae.dev/Connect_4",
   "scripts": {
     "predeploy": "npm run build && echo othamae.dev ./dist/CNAME",
     "deploy": "gh-pages -d dist",
