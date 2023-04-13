@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "othamae.dev/Connect_4",
   "scripts": {
-    "predeploy": "npm run build && echo othamae.dev ./dist/CNAME",
+    "predeploy": "npm run build && echo othamae.dev >./dist/CNAME",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
